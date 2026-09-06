@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "open-southeners.laravel-pint",
+    "aaron-bond.better-comments",
+    "shufo.vscode-blade-formatter",
+    "editorconfig.editorconfig",
+    "genuitec.codetogether"
+  ]
+}
