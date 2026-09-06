@@ -1,0 +1,31 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[css]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[scss]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[html]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[blade]": { "editor.defaultFormatter": "shufo.vscode-blade-formatter" },
+  "[php]": {
+    "editor.defaultFormatter": "open-southeners.laravel-pint",
+    "editor.formatOnSave": true
+  },
+
+  "laravel-pint.enabled": true,
+  "laravel-pint.configPath": "pint.json",
+
+  "better-comments.tags": [
+    { "tag": "!", "color": "#FF2D00", "strikethrough": false, "bold": true },
+    { "tag": "?", "color": "#3498DB", "strikethrough": false, "bold": false },
+    { "tag": "//", "color": "#474747", "strikethrough": true, "bold": false },
+    { "tag": "todo", "color": "#FFC107", "strikethrough": false, "bold": true },
+    { "tag": "*", "color": "#98C379", "strikethrough": false, "bold": false }
+  ],
+
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true
+}
